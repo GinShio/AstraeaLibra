@@ -1,0 +1,9 @@
+g++-9
+-Wall
+-Wextra
+-std=c++17
+-Iinclude/
+-Ithrift/
+%c -std=c11
+%cc %cpp %cxx %tcc -std=c++17
+%hh %hpp %hxx c++-header
